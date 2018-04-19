@@ -4,7 +4,9 @@ title {
 
 body {
     clear: both;
-	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    background-image: url("../images/space.jpg");
+    background-size: cover;
 }
 header {
 	float: left;
@@ -63,9 +65,8 @@ ul li a:hover {
 
 #main-bio {
     font-family: 'Berkshire Swash', cursive;
-    background-image: url("../images/space.jpg");
-    background-size: cover;
     color:#20cbd0;
+    
 }
 
 .pagetitle {
