@@ -37,3 +37,44 @@ ul li a {
 ul li a:hover {
 	color: #666;
 }
+
+.container {
+    clear: both;
+}
+
+.pagetitle {
+    padding: 2px;
+    margin-bottom: 3%;
+    font-size: 25px;
+    text-align: center;
+    
+
+}
+#bio-image {
+    float: left;
+    padding: 2px;
+    border-style: outset;
+    border-width: 5px;
+    border-color: aquamarine;
+    margin-bottom: 10px;
+    margin-right: 10px;
+    
+}
+
+#main-bio {
+    font-family: 'Berkshire Swash', cursive;
+    background-image: url("../images/space.jpg");
+    background-size: cover;
+    color:#20cbd0;
+}
+
+.pagetitle {
+    font-family: 'Black And White Picture', sans-serif;
+    
+}
+
+#main-bio p {
+    position: initial;
+    font-size: 20px;
+   
+}
