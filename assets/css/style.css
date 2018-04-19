@@ -2,6 +2,38 @@ title {
    
 }
 
+body {
+    clear: both;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 header {
+	float: left;
+	background-color: #fff;
+	border-bottom: 2px solid #ccc;
+	width: 100%;
+}
 
+.name-logo {
+	float: left;
+	background-color: #4aaaa5;
+	color: white;
+	padding: 20px;
+	margin-left: 2%;
+	font-size: 30px;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	width: 195px;
+}
+
+ul li a {
+	float: right;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin-right: 30px;
+	margin-top: 25px;
+	text-decoration: none;
+	color: #ccc;
+	font-size: 15px;
+}
+
+ul li a:hover {
+	color: #666;
 }
