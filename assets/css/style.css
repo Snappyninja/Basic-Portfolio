@@ -9,20 +9,21 @@ body {
     background-size: cover;
 }
 header {
-	float: left;
-	background-color: #fff;
-	border-bottom: 2px solid #ccc;
-	width: 100%;
+	background-color: rgb(8, 8, 8);
+	border-bottom: 2px solid cyan;
+    width: 100%;
+    height:75px;
+    margin-bottom:20px;
+    
 }
 
 .name-logo {
 	float: left;
-	background-color: #4aaaa5;
-	color: white;
+	color: #20cbd0;
 	padding: 20px;
 	margin-left: 2%;
 	font-size: 30px;
-	font-family: 'Georgia', Times, Times New Roman, serif;
+	font-family: 'Black And White Picture', sans-serif;
 	width: 195px;
 }
 
@@ -32,7 +33,7 @@ ul li a {
 	margin-right: 30px;
 	margin-top: 25px;
 	text-decoration: none;
-	color: #ccc;
+	color: #20cbd0;
 	font-size: 15px;
 }
 
@@ -60,6 +61,9 @@ ul li a:hover {
     border-color: aquamarine;
     margin-bottom: 10px;
     margin-right: 10px;
+    width: 25%;
+    height: 20%;
+    
     
 }
 
@@ -78,4 +82,51 @@ ul li a:hover {
     position: initial;
     font-size: 20px;
    
+}
+
+/* style for contact.hml page.*/
+
+.contact {
+    width: 100%;
+    text-align: left
+   
+
+}
+
+.mainContainer {
+    clear: both;
+    max-width:960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:40px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color:cyan;
+    background-color:rgba(25, 25, 112, 0.315);
+    font-family: 'Berkshire Swash', cursive;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.pains {
+    width: 100%;
+    
+}
+
+.formcontainer h2 {
+    font-family: 'Black And White Picture', sans-serif;
+    font-size: 24px;
+}
+
+footer {
+    height: 30px;
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    text-align: center;
+    background-color: black;
+    border-top: 2px solid cyan;
+    padding-top: 10px;
+    font-family: 'Black And White Picture', sans-serif;
+    color:cyan;
 }
